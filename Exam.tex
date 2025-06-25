@@ -1,0 +1,76 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[a4paper,margin=1in]{geometry}
+\usepackage{array}
+\usepackage{parskip}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{hyperref}
+\usepackage{graphicx} % For including images
+
+% Set up header and footer
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{MAKAUT}
+\lhead{Subhadip Mandal's Resume}
+\cfoot{\thepage}
+
+% Section formatting
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+
+\begin{document}
+
+% Name and Contact Information with optional photo
+\begin{minipage}{0.7\textwidth}
+    {\LARGE \textbf{Subhadip Mandal}}\\
+    Vill: Laudighi,PO:Itaberia, Dist: Purba Medinipur, Pin: 721456 \\
+    +91 9641444243 \\
+    \href{mailto:mandalsubhadip5380@gmail.com}{mandalsubhadip5380@gmail.com}
+\end{minipage}
+\begin{minipage}{0.29\textwidth}
+    \begin{flushright}
+        \includegraphics[width=3.2cm, height=4cm]{exam/Subhadip.jpg} % Replace with your actual photo file
+\vspace{0.5cm}
+    \end{flushright}
+\end{minipage}
+
+
+% Educational Qualifications
+\section*{Educational Qualifications}
+\begin{tabular}{ | p{6cm} | p{6cm} | p{2cm} | }
+ \hline
+ \textbf{Degree} & \textbf{Institution/Board} & \textbf{Year} \\
+ \hline
+ Madhyamik (Secondary) & WBBSE & 2022 \\
+ \hline
+ Higher Secondary & WBCHSE & 2024 \\
+ \hline
+ BCA & MAKAUT & 2028 \\
+ \hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+% Awards and Achievements
+\section*{Awards and Achievements}
+\begin{itemize}
+    \item Winner, National Coding Championship, 2026
+    \item Awarded "Best Undergraduate Project" in Computer Application, 2025
+    \item Merit Scholarship Recipient, 2022–2028
+\end{itemize}
+
+% Skills
+\section*{Skills}
+\textbf{Languages:} Bengali(Fluent),Hindi(Fluent),English(Intermediate) \\
+\textbf{Programming:} Python, C++, Java, HTML/CSS, LaTeX \\
+\textbf{Tools:} Git, Linux, VSCode, Jupyter Notebook
+
+% Activities and Interests
+\section*{Activities and Interests}
+\begin{itemize}
+    \item Playing cricket
+    \item Watching sports
+    \item Writing poetry and reading books
+    \item Running an audiobook channel named \textbf{GSA}
+\end{itemize}
+
+\end{document}
